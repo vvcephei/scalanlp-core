@@ -51,7 +51,9 @@ object ScalanlpBuild extends Build {
   }
   val JUnit = "junit" % "junit" % "4.5" % "test"
 
-  val commonDeps = Seq(paranamer,Scalala,ScalaCheck,ScalaTest,JUnit)
+  val lift_json = "net.liftweb" %% "lift-json" % "2.4"
+
+  val commonDeps = Seq(paranamer,Scalala,ScalaCheck,ScalaTest,JUnit,lift_json)
 
   //
   // subprojects

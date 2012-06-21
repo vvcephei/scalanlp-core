@@ -10,3 +10,5 @@ project/boot
 project/build
 *~
 
+*.iml
+*.idea/
